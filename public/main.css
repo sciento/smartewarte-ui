@@ -108,16 +108,24 @@ button.btn {
     button.btn.btn-icon i.material-icons {
       font-size: 28px; }
 
-input {
+input,
+textarea,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border: 3px solid #E6E6E6;
   padding: 6px;
   font-size: 16px;
   border-radius: 8px;
   width: 100%;
   font-weight: 100;
+  min-height: 42px;
   outline: none;
   transition: all ease-in-out 0.35s; }
-  input:focus {
+  input:focus,
+  textarea:focus,
+  select:focus {
     border-color: #58C8D3; }
 
 label {
