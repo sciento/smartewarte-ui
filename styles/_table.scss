@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  thead {
+    border-spacing: 0;
+  }
+  thead tr th {
+    text-align: left;
+    color: $dark;
+    padding-bottom: 5px;
+  }
+  thead tr {
+    border-bottom: 1px solid $darker;
+  }
+
+  tbody {
+    tr {
+      height: 35px;
+    }
+    tr:nth-child(odd) {
+      background: $light;
+    }
+  }
+}

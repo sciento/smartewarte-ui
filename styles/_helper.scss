@@ -1,8 +1,68 @@
 .demo-grid {
-    background: $light;
-    width: 100%;
-    float: left;
-    height: 50px;
-    text-align: center;
-    padding-top: 15px;
+  background: $light;
+  width: 100%;
+  float: left;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.border-radius {
+  border-radius: 12px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.color-light {
+  color: $light;
+}
+
+.color-lighter {
+  color: $lighter;
+}
+
+.color-dark {
+  color: $dark;
+}
+
+.color-darker {
+  color: $darker;
+}
+
+.color-primary {
+  color: $primary;
+}
+
+.color-danger {
+  color: $danger;
+}
+
+.background-light {
+  background: $light;
+}
+
+.background-lighter {
+  background: $lighter;
+}
+
+.background-dark {
+  background: $dark;
+}
+
+.background-darker {
+  background: $darker;
+}
+
+.background-primary {
+  background: $primary;
+}
+
+.background-danger {
+  background: $danger;
 }
