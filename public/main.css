@@ -23,8 +23,15 @@ h4 {
   text-align: center;
   padding-top: 15px; }
 
+.sw-logo {
+  color: #728E8B;
+  font-size: 28px; }
+
 .icon-large {
-  font-size: 81px; }
+  font-size: 81px !important; }
+
+.icon-medium {
+  font-size: 35px !important; }
 
 .align-middle {
   display: flex;
