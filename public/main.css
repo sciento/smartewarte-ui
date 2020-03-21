@@ -71,6 +71,9 @@ h4 {
 .background-danger {
   background: #CE1919; }
 
+.text-center {
+  text-align: center; }
+
 .wrapper,
 .row {
   *zoom: 1; }
