@@ -83,6 +83,15 @@ h4 {
   .row:after {
     clear: both; }
 
+.card {
+  background: #F4F4F4;
+  border-radius: 12px;
+  min-height: 45px;
+  width: 100%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  color: #728E8B; }
+
 table {
   width: 100%;
   border-collapse: collapse; }
