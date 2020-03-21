@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'headings';
+@import 'helper';
+@import 'mixins';
+@import 'scaffolding';
+@import 'buttons';
+@import 'inputs';
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}

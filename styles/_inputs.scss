@@ -1,0 +1,22 @@
+input {
+  border: 3px solid $borderColor;
+  padding: 6px;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 100;
+
+  outline: none;
+  transition: all ease-in-out 0.35s;
+  &:focus {
+    border-color: $primary;
+  }
+}
+
+label {
+  color: #5a5a5a;
+  padding: 7px;
+  font-weight: 100;
+  font-size: 15px;
+  float: left;
+}

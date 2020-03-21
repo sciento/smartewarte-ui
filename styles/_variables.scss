@@ -1,0 +1,16 @@
+$lighter: #FCFCFC;
+$light: #F4F4F4;
+$dark: #728E8B;
+$darker: #5A5A5A;
+$borderColor: #E6E6E6;
+$primary: #58C8D3;
+
+// Grid from
+// https://webdesign.tutsplus.com/tutorials/a-simple-responsive-grid-made-even-better-with-sass--cms-21540
+// grid variables
+$grid-columns: 12;
+$grid-max-width: 100%;
+ 
+ // breakpoints
+$breakpoint-small: "only screen and (min-width: 20em)";
+$breakpoint-medium: "only screen and (min-width: 30em)";
