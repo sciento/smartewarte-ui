@@ -215,6 +215,9 @@ button.btn {
   button.btn:hover {
     background: #80d5de;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.03), 0 2px 4px rgba(0, 0, 0, 0.1); }
+  button.btn.btn-remove {
+    background: #F4F4F4;
+    color: #CE1919; }
   button.btn.btn-icon {
     padding: 4px 6px; }
     button.btn.btn-icon i.material-icons {
