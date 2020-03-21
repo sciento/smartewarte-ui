@@ -149,6 +149,54 @@ img {
   .column-12 {
     width: 100%; } }
 
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 64px;
+  background-color: #FCFCFC;
+  box-shadow: -5px 0 7px 3px #6b6b6b; }
+  nav ul li.active button.btn-icon {
+    background: #58C8D3; }
+    nav ul li.active button.btn-icon i.material-icons {
+      color: #fff; }
+  nav ul:first-child li {
+    float: left;
+    padding-left: 12px; }
+  nav ul:last-child {
+    position: absolute;
+    bottom: 0;
+    width: 64px;
+    margin: 0;
+    padding: 0s; }
+  nav div.logo {
+    background: #58C8D3;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 15px; }
+    nav div.logo i.material-icons {
+      font-size: 32px;
+      color: #fff; }
+  nav button.btn-icon {
+    background: transparent;
+    box-shadow: none;
+    margin-left: 12px;
+    margin-bottom: 8px;
+    margin-top: 8px; }
+    nav button.btn-icon:hover i.material-icons {
+      color: #fff; }
+    nav button.btn-icon i.material-icons {
+      transition: color ease-in-out 0.35s;
+      color: #5A5A5A; }
+
+section {
+  position: relative;
+  float: left;
+  width: calc(100% - 64px);
+  margin-left: 64px; }
+
 button.btn {
   background: #58C8D3;
   padding: 11px 25px;
