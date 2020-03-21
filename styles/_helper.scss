@@ -7,6 +7,15 @@
   padding-top: 15px;
 }
 
+.icon-large {
+  font-size: 81px;
+}
+
+.align-middle {
+  display: flex;
+  align-items: center;
+}
+
 .border-radius {
   border-radius: 12px;
 }
@@ -15,10 +24,13 @@
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.spacer-bottom {
-    margin-bottom: 12px;
+.padding-none {
+  padding: 0 !important;
 }
 
+.spacer-bottom {
+  margin-bottom: 12px;
+}
 
 .float-left {
   float: left;
@@ -77,5 +89,5 @@
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
