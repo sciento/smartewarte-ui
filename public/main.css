@@ -250,6 +250,9 @@ button.btn {
   button.btn.btn-remove {
     background: #F4F4F4;
     color: #CE1919; }
+  button.btn.btn-default {
+    background: #F4F4F4;
+    color: #5A5A5A; }
   button.btn.btn-icon {
     padding: 4px 6px; }
     button.btn.btn-icon i.material-icons {

@@ -18,6 +18,10 @@ button.btn {
     background: $light;
     color: $danger;
   }
+  &.btn-default {
+    background: $light;
+    color: $darker;
+  }
   &.btn-icon {
     padding: 4px 6px;
     i.material-icons {
