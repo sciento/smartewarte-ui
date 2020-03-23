@@ -31,6 +31,20 @@ button.btn {
 }
 
 .btn-group {
+  a button.btn {
+    border-radius: 0;
+    float: left;
+  }
+  
+  a:first-child button.btn {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  a:last-child button.btn {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+
   button.btn {
     border-radius: 0;
     float: left;

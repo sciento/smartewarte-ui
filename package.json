@@ -1,6 +1,6 @@
 {
-  "name": "smartedampfe-style",
-  "version": "1.0.0",
+  "name": "@cablecore/sw-ui",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
